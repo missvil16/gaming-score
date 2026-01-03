@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets.css">
+</head>
+<body class="bodymain">
+    <div id="divspace">
+        <div id="team-a" >
+            <h1 > Team-A </h1>
+            <div class="container">
+                <p id="score-a" class="score">0</p>
+
+            </div>
+            <div class="button-container">
+                <button id="teama+1" onclick="a1()">+1</button>
+                <button id="teama+2" onclick="a2()">+2</button>
+                <button id="teama+3" onclick="a3()">+3</button>
+            </div>
+
+        </div>
+        <div id="team-b" >
+            <h1 >Team-B </h1>
+            <div class="container">
+                <p id="score-b" class="score">0</p>
+
+            </div>
+            <div class="button-container">
+                <button id="teamb+1" onclick="b1()" >+1</button>
+                <button id="teamb+2" onclick="b2()">+2</button>
+                <button id="teamb+3" onclick="b3()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="extra" >
+        <button class="end" onclick="winner()">Winner</button>
+        <button class="end" onclick="endgame()">End Game</button>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
